@@ -5,7 +5,7 @@
 function fizzbuzz() {
 
 
-    
+    //Takes input using readline-sync package
     var readlineSync = require("readline-sync")
     var end = readlineSync.question("What number would you like to FizzBuzz to?")
 
@@ -62,8 +62,8 @@ function outputConstructor(){
 
 
 
-//Find B in the string and puts Fezz behind it
-//Puts Fezz at the end if no B in string
+//Find B in list if start of word and puts Fezz behind it
+//Puts Fezz at the end if no B in start of elements
 function fezz_add(list){
     const len =list.length
     var output = []
